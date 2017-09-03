@@ -6,15 +6,15 @@ int main()
 {
     //Set inital variables
     float Cv,Pv,Sp,E,E2,Kp,Ki,Kd,I,D,U;
-    Cv = 0.00;
-    Pv = 0.00;
-    E = 0.00;
-    I = 0.00;
-    D = 0.00;
-    Kp = 1.00;
-    Ki = 0.02;
-    Kd = 0.01;
-    Sp = 350.00;
+    Cv = 0.00; //Control Variable
+    Pv = 0.00; //Proccess Variable
+    E = 0.00; //Error
+    I = 0.00; //Integral
+    D = 0.00; //Derivative
+    Kp = 1.00; //Proportional Constant
+    Ki = 0.02; //Integral Constant
+    Kd = 0.01; //Derivative Constant
+    Sp = 350.00; //Setpoint
     //Calculate PI Loop
     while (Pv != Sp)
     {
